@@ -5,7 +5,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else 
     report = "The line is currently:"
-    katz_deli.each_with_index do |person,index|
+    katz_deli.each_with_index do |person, index|
       position = index + 1 
       report = report + " #{position}. #{person}"
     end
